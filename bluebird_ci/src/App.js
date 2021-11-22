@@ -12,6 +12,7 @@ function App() {
 
   const fetchUser = async () => {
     console.log("유저토큰 재발급");
+    console.log("웹훅 테스트용 by su")
     try {
       setLoading(true);
 
